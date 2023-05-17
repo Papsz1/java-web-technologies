@@ -4,18 +4,18 @@ plugins {
 }
 
 dependencies {
-    implementation project(':sdim2087-backend')
+    implementation project(':backend')
 }
 
 application {
-    mainClass = 'edu.bbte.idde.sdim2087.desktop.Desktop'
+    mainClass = 'desktop.frontend.module'
 }
 
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'edu.bbte.idde.sdim2087'
-            artifactId = 'sdim2087-desktop'
+            groupId = 'david'
+            artifactId = 'desktop-frontend'
             version = '1.0.0-SNAPSHOT'
 
             from components.java

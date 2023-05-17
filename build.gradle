@@ -3,7 +3,7 @@ plugins {
 }
 
 subprojects {
-    group 'edu.bbte.idde.sdim2087'
+    group 'david'
     version '1.0-SNAPSHOT'
 
     apply plugin: 'java'

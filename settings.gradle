@@ -1,6 +1,6 @@
 rootProject.name = 'catering'
-include 'sdim2087-backend'
-include 'sdim2087-desktop'
-include 'sdim2087-web'
-include 'sdim2087-spring'
+include 'backend'
+include 'desktop-frontend'
+include 'web-frontend'
+include 'spring'
 

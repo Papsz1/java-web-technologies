@@ -9,8 +9,8 @@ repositories {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId = 'edu.bbte.idde.sdim2087'
-            artifactId = 'sdim2087-backend'
+            groupId = 'david'
+            artifactId = 'backend.module'
             version = '1.0.0-SNAPSHOT'
 
             from components.java

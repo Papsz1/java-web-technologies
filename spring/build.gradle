@@ -3,7 +3,7 @@ plugins {
     id 'org.springframework.boot' version '2.6.0'
 }
 
-group 'edu.bbte.idde.sdim2087'
+group 'david'
 version 'unspecified'
 
 repositories {
