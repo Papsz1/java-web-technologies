@@ -1,0 +1,12 @@
+jdbc:
+  url: jdbc:mysql://localhost:3306/catering?allowPublicKeyRetrieval=true&useSSL=false
+  user: sdim2087
+  passwd: 1234
+  database: catering
+  poolSize: 10
+  driver: com.mysql.cj.jdbc.Driver
+spring.autoconfigure.exclude:
+  - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+  - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+

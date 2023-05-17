@@ -1,0 +1,7 @@
+daoType: jdbc
+jdbcUser: sdim2087
+jdbcPassword: 1234
+jdbcDatabase: catering
+jdbcUrl: localhost:3306
+jdbcPoolSize: 10
+jdbcDriver: com.mysql.cj.jdbc.Driver
